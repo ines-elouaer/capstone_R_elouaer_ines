@@ -6,13 +6,12 @@ website:
   title: "Projet R - Production d’électricité (Tunisie)"
   navbar:
     left:
-      - href: qmd/index.qmd
+      - href: index.qmd
         text: Accueil
       - href: qmd/report.qmd
         text: Rapport
       - href: slides/slidesR.pdf
         text: Slides
-
 format:
   html:
     theme: cosmo
