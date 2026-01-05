@@ -1,7 +1,31 @@
 ---
-title: "Rapport – Production d’électricité en Tunisie"
+title: "Rapport – Production mensuelle d’électricité en Tunisie"
 format: html
-execute:
-  echo: true
+toc: true
 ---
 
+## Introduction
+Ce rapport présente l’analyse de la production mensuelle d’électricité en Tunisie sur la période 2005–2024.
+
+## Données
+Le dataset utilisé provient de la STEG et inclut la production par type de producteur :
+- STEG
+- IPP
+- Auto-producteurs
+- Solaire
+
+## Méthodologie
+- Nettoyage des données
+- Gestion des valeurs manquantes
+- Analyse exploratoire (EDA)
+- Tests statistiques
+- Modèles de régression et diagnostics
+
+## Résultats principaux
+- Tendance croissante à long terme
+- Saisonnière marquée
+- La STEG reste le producteur dominant
+- Le solaire apparaît récemment et reste marginal
+
+## Conclusion
+Ce travail fournit une analyse descriptive et statistique reproductible de la production électrique en Tunisie.
