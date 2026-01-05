@@ -9,6 +9,9 @@ Analyser la production mensuelle d’électricité en Tunisie (2005–2024) par 
 - [Rapport complet](report.qmd)
 - [Slides](../slides/slidesR.pdf)
 - [Code source (GitHub)](https://github.com/ines-elouaer/capstone_R_elouaer_ines)
+[Ouvrir le rapport](report.html){.btn .btn-primary}
+[Ouvrir les slides](slides/slidesR.pdf){.btn .btn-dark}
+[Repo GitHub](https://github.com/ines-elouaer/capstone_R_elouaer_ines){.btn .btn-secondary}
 
 ## Dataset
 Le fichier est dans `data/opendataproductionmensuelleelectriciteparproducteurs.csv`.
