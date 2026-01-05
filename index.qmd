@@ -9,3 +9,5 @@ title: "Projet R – Production d’électricité (Tunisie)"
 [Ouvrir les slides](slides/slidesR.pdf){.btn .btn-dark}
 
 [Télécharger le dataset](data/opendataproductionmensuelleelectriciteparproducteurs.csv){.btn .btn-outline-secondary}
+
+[Repo GitHub](https://github.com/ines-elouaer/capstone_R_elouaer_ines){.btn .btn-secondary}
