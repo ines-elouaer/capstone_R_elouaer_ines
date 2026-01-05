@@ -2,14 +2,10 @@
 title: "Projet R – Production d’électricité (Tunisie)"
 ---
 
-## Objectif
-Analyser la production mensuelle d’électricité en Tunisie (2005–2024) par type de producteur (STEG, IPP, auto-producteurs, solaire) afin d’identifier tendance, saisonnalité et différences entre producteurs.
+## Accès rapide
 
-:::{.btn-group role="group"}
-[Ouvrir le rapport](report.html){.btn .btn-primary}
-[Ouvrir les slides](../slides/slidesR.pdf){.btn .btn-dark}
-[Repo GitHub](https://github.com/ines-elouaer/capstone_R_elouaer_ines){.btn .btn-secondary}
-:::
+[Ouvrir le rapport](qmd/report.html){.btn .btn-primary}
 
-## Dataset
-Le fichier est dans `data/opendataproductionmensuelleelectriciteparproducteurs.csv`.
+[Ouvrir les slides](slides/slidesR.pdf){.btn .btn-dark}
+
+[Télécharger le dataset](data/opendataproductionmensuelleelectriciteparproducteurs.csv){.btn .btn-outline-secondary}
