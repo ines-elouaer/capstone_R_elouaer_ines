@@ -1,1 +1,24 @@
 
+---
+title: "Analyse de la production mensuelle d’électricité en Tunisie (2005–2024)"
+author: "Ines Elouaer"
+format:
+  html:
+    toc: true
+    number-sections: true
+execute:
+  echo: true
+---
+## Objectif
+Analyser l’évolution mensuelle de la production d’électricité en Tunisie (2005–2024) par type de producteur (STEG, IPP, auto-producteurs, solaire), afin d’identifier la tendance, la saisonnalité et les différences entre producteurs.
+
+## Données
+Source : data.gov.tn — Production mensuelle d’électricité par producteurs.  
+Période : 2005–2024.
+
+## Contenu
+- Nettoyage + préparation
+- Analyse exploratoire + visualisations
+- Tests statistiques (comparaison STEG vs IPP)
+- Modèles de régression (tendance + saisonnalité)
+- Conclusion + limites + perspectives
