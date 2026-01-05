@@ -15,6 +15,11 @@ a broad overview and to enable students to select and understand specific books 
 * [**Lecture slides**]()
 * [**Datasets**]()
 * [Source code \ github]()
+[Ouvrir le rapport](report.html){.btn .btn-primary}
+
+[Ouvrir les slides](slides/slidesR.pdf){.btn .btn-dark}
+
+[Repo GitHub](https://github.com/ines-elouaer/capstone_R_elouaer_ines){.btn .btn-secondary}
 
 ## Author
 
