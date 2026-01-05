@@ -1,0 +1,163 @@
+[
+  {
+    "objectID": "qmd/report.html",
+    "href": "qmd/report.html",
+    "title": "Rapport – Production mensuelle d’électricité en Tunisie",
+    "section": "",
+    "text": "Ce rapport présente l’analyse de la production mensuelle d’électricité en Tunisie sur la période 2005–2024."
+  },
+  {
+    "objectID": "qmd/report.html#introduction",
+    "href": "qmd/report.html#introduction",
+    "title": "Rapport – Production mensuelle d’électricité en Tunisie",
+    "section": "",
+    "text": "Ce rapport présente l’analyse de la production mensuelle d’électricité en Tunisie sur la période 2005–2024."
+  },
+  {
+    "objectID": "qmd/report.html#données",
+    "href": "qmd/report.html#données",
+    "title": "Rapport – Production mensuelle d’électricité en Tunisie",
+    "section": "Données",
+    "text": "Données\nLe dataset utilisé provient de la STEG et inclut la production par type de producteur : - STEG - IPP - Auto-producteurs - Solaire"
+  },
+  {
+    "objectID": "qmd/report.html#méthodologie",
+    "href": "qmd/report.html#méthodologie",
+    "title": "Rapport – Production mensuelle d’électricité en Tunisie",
+    "section": "Méthodologie",
+    "text": "Méthodologie\n\nNettoyage des données\nGestion des valeurs manquantes\nAnalyse exploratoire (EDA)\nTests statistiques\nModèles de régression et diagnostics"
+  },
+  {
+    "objectID": "qmd/report.html#résultats-principaux",
+    "href": "qmd/report.html#résultats-principaux",
+    "title": "Rapport – Production mensuelle d’électricité en Tunisie",
+    "section": "Résultats principaux",
+    "text": "Résultats principaux\n\nTendance croissante à long terme\nSaisonnière marquée\nLa STEG reste le producteur dominant\nLe solaire apparaît récemment et reste marginal"
+  },
+  {
+    "objectID": "qmd/report.html#conclusion",
+    "href": "qmd/report.html#conclusion",
+    "title": "Rapport – Production mensuelle d’électricité en Tunisie",
+    "section": "Conclusion",
+    "text": "Conclusion\nCe travail fournit une analyse descriptive et statistique reproductible de la production électrique en Tunisie."
+  },
+  {
+    "objectID": "test_stat.html#statistical-testing-framework",
+    "href": "test_stat.html#statistical-testing-framework",
+    "title": "Statistical Tests with R - Complete Guide",
+    "section": "Statistical Testing Framework",
+    "text": "Statistical Testing Framework"
+  },
+  {
+    "objectID": "test_stat.html#one-sample-t-test",
+    "href": "test_stat.html#one-sample-t-test",
+    "title": "Statistical Tests with R - Complete Guide",
+    "section": "One Sample t-Test",
+    "text": "One Sample t-Test\nMathematical Foundation\nTests whether population mean \\(\\mu\\) equals specified value \\(\\mu_0\\):\nTest statistic: \\(t = \\dfrac{\\bar{x} - \\mu_0}{s/\\sqrt{n}}\\)\nwhere:\n\n\n\n\\(\\bar{x}\\)\n\n\nsample mean\n\n\n\n\n\\(s\\)\n\n\nsample standard deviation\n\n\n\n\n\\(n\\)\n\n\nsample size\n\n\n\n\n\\(df = n - 1\\)\n\n\ndegrees of freedom\n\n\n\n\n\n\nData are normally distributed\n\n\n\n\n\n\nObservations are independent"
+  },
+  {
+    "objectID": "test_stat.html#two-sample-t-test",
+    "href": "test_stat.html#two-sample-t-test",
+    "title": "Statistical Tests with R - Complete Guide",
+    "section": "Two Sample t-Test",
+    "text": "Two Sample t-Test\nIndependent Samples t-Test\nTests whether two population means are equal:\nTest statistic: \\[t = \\frac{\\bar{x}_1 - \\bar{x}_2}{s_p \\sqrt{\\frac{1}{n_1} + \\frac{1}{n_2}}}\\]\nPooled standard deviation: \\[s_p = \\sqrt{\\frac{(n_1-1)s_1^2 + (n_2-1)s_2^2}{n_1 + n_2 - 2}}\\]\nDegrees of freedom: \\(df = n_1 + n_2 - 2\\)"
+  },
+  {
+    "objectID": "test_stat.html#paired-t-test",
+    "href": "test_stat.html#paired-t-test",
+    "title": "Statistical Tests with R - Complete Guide",
+    "section": "Paired t-Test",
+    "text": "Paired t-Test\nMathematical Formulation\nTests mean difference between paired observations:\nTest statistic: \\(t = \\dfrac{\\bar{d}}{s_d/\\sqrt{n}}\\)\nwhere:\n\n\n\n\\(d_i = x_{i1} - x_{i2}\\)\n\n\npaired differences\n\n\n\n\n\\(\\bar{d}\\)\n\n\nmean of differences\n\n\n\n\n\\(s_d\\)\n\n\nstandard deviation of differences\n\n\n\n\n\\(n\\)\n\n\nnumber of pairs\n\n\n\n\n\\(df = n - 1\\)\n\n\ndegrees of freedom\n\n\n\n\n\n\nDifferences are normally distributed\n\n\n\n\n\n\nPairs are dependent/related"
+  },
+  {
+    "objectID": "test_stat.html#effect-size-measures",
+    "href": "test_stat.html#effect-size-measures",
+    "title": "Statistical Tests with R - Complete Guide",
+    "section": "Effect Size Measures",
+    "text": "Effect Size Measures\nCohen’s d\nStandardized mean difference:\nFor one sample: \\(d = \\frac{\\bar{x} - \\mu_0}{s}\\)\nFor two independent samples: \\(d = \\frac{\\bar{x}_1 - \\bar{x}_2}{s_p}\\)\n\n\n\n\\(s_p\\)\n\n\npooled standard deviation\n\n\n\n\n0.2\n\n\nSmall effect\n\n\n\n\n0.5\n\n\nMedium effect\n\n\n\n\n0.8\n\n\nLarge effect"
+  },
+  {
+    "objectID": "test_stat.html#non-parametric-tests",
+    "href": "test_stat.html#non-parametric-tests",
+    "title": "Statistical Tests with R - Complete Guide",
+    "section": "Non-Parametric Tests",
+    "text": "Non-Parametric Tests\nMann-Whitney U Test (Wilcoxon Rank-Sum)\nNon-parametric alternative to two-sample t-test:\nTest statistic: \\[U = \\min(U_1, U_2)\\] where: \\[U_1 = n_1n_2 + \\frac{n_1(n_1+1)}{2} - R_1\\] \\[U_2 = n_1n_2 + \\frac{n_2(n_2+1)}{2} - R_2\\]\n\n\\(R_1, R_2\\) = sum of ranks for groups 1 and 2\nTests whether distributions differ in location"
+  },
+  {
+    "objectID": "test_stat.html#chi-square-tests",
+    "href": "test_stat.html#chi-square-tests",
+    "title": "Statistical Tests with R - Complete Guide",
+    "section": "Chi-Square Tests",
+    "text": "Chi-Square Tests\nChi-Square Goodness of Fit Test\nTests whether observed frequencies match expected distribution:\nTest statistic: \\[\\chi^2 = \\sum \\frac{(O_i - E_i)^2}{E_i}\\]\nwhere:\n\n\n\n\\(O_i\\)\n\n\nobserved frequency in category i\n\n\n\n\n\\(E_i\\)\n\n\nexpected frequency in category i\n\n\n\n\n\\(df\\)\n\n\n\\(k - 1\\)\n\n\n\n\n\\(k\\)\n\n\n# where k = number of categories"
+  },
+  {
+    "objectID": "test_stat.html#fishers-exact-test",
+    "href": "test_stat.html#fishers-exact-test",
+    "title": "Statistical Tests with R - Complete Guide",
+    "section": "Fisher’s Exact Test",
+    "text": "Fisher’s Exact Test\nMathematical Basis\nExact test for 2×2 contingency tables:\nProbability of observed configuration: \\[p = \\frac{\\binom{a+b}{a} \\binom{c+d}{c} \\binom{a+c}{a} \\binom{b+d}{b}}{\\binom{n}{a+b}}\\]\nwhere the table is:\n         | Col1 | Col2 | Total\nRow1     |  a   |  b   | a+b\nRow2     |  c   |  d   | c+d\nTotal    | a+c  | b+d  | n\nUse when: Expected frequencies &lt; 5 or small sample sizes"
+  },
+  {
+    "objectID": "test_stat.html#anova-analysis-of-variance",
+    "href": "test_stat.html#anova-analysis-of-variance",
+    "title": "Statistical Tests with R - Complete Guide",
+    "section": "ANOVA (Analysis of Variance)",
+    "text": "ANOVA (Analysis of Variance)\nOne-Way ANOVA\nTests equality of means across 3+ groups:\nF-statistic: \\(F = \\frac{MS_{B}}{MS_{W}}\\)\nwhere:\n\n\n\nMSB\n\n\n\\(MS_B = \\frac{SS_B}{df_B}\\)\n\n\n\\(df_{B} = k - 1\\)\n\n\n\n\nMSW\n\n\n\\(MS_W = \\frac{SS_W}{df_W}\\)\n\n\n\\(df_{W} = N - k\\)\n\n\n\n\nSSB\n\n\n\\(SS_B = \\sum n_i(\\bar{x}_i - \\bar{x})^2\\)\n\n\n\n\n\n\nSSW\n\n\n\\(SS_W = \\sum \\sum (x_{ij} - \\bar{x}_i)^2\\)\n\n\n\n\n\n\nB = Between\nW = Within"
+  },
+  {
+    "objectID": "test_stat.html#assumption-checking",
+    "href": "test_stat.html#assumption-checking",
+    "title": "Statistical Tests with R - Complete Guide",
+    "section": "Assumption Checking",
+    "text": "Assumption Checking\nNormality Tests"
+  },
+  {
+    "objectID": "test_stat.html#power-analysis",
+    "href": "test_stat.html#power-analysis",
+    "title": "Statistical Tests with R - Complete Guide",
+    "section": "Power Analysis",
+    "text": "Power Analysis\nSample Size Calculation\nFor t-test: \\[n = \\left( \\frac{(z_{1-\\alpha/2} + z_{1-\\beta}) \\cdot \\sigma}{\\delta} \\right)^2\\]\nwhere:\n\n\n\n\\(\\alpha\\)\n\n\nsig. level\n\n\n\n\n\\(\\beta\\)\n\n\nType II error rate\n\n\n\n\n\\(1-\\beta\\)\n\n\npower\n\n\n\n\n\\(\\delta\\)\n\n\neffect size\n\n\n\n\n\\(\\sigma\\)\n\n\nstandard deviation"
+  },
+  {
+    "objectID": "test_stat.html#summary-table-of-tests",
+    "href": "test_stat.html#summary-table-of-tests",
+    "title": "Statistical Tests with R - Complete Guide",
+    "section": "Summary Table of Tests",
+    "text": "Summary Table of Tests\n\n\n\n\n\n\n\n\n\nTest\nPurpose\nR Function\nKey Assumptions\n\n\n\n\nOne-sample t-test\nCompare mean to value\nt.test(x, mu)\nNormality, independence\n\n\nTwo-sample t-test\nCompare two means\nt.test(x, y)\nNormality, equal variances*\n\n\nPaired t-test\nCompare paired means\nt.test(x, y, paired=TRUE)\nNormality of differences\n\n\nMann-Whitney\nNon-parametric two samples\nwilcox.test(x, y)\nIndependent samples\n\n\nWilcoxon signed-rank\nNon-parametric paired\nwilcox.test(x, y, paired=TRUE)\nPaired data\n\n\nChi-square\nCategorical association\nchisq.test(table)\nExpected frequencies ≥ 5\n\n\nFisher’s exact\nSmall contingency tables\nfisher.test(table)\nFixed margins\n\n\nANOVA\nCompare 3+ means\naov(y ~ group)\nNormality, equal variances\n\n\n\n*Welch’s t-test doesn’t assume equal variances"
+  },
+  {
+    "objectID": "test_stat.html#best-practices",
+    "href": "test_stat.html#best-practices",
+    "title": "Statistical Tests with R - Complete Guide",
+    "section": "Best Practices",
+    "text": "Best Practices\n\nAlways check assumptions before interpreting results\nUse non-parametric tests when assumptions are violated\nReport effect sizes along with p-values\nConsider multiple testing corrections when appropriate\nUse confidence intervals to understand precision\nVisualize your data before running tests"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Projet R – Production d’électricité (Tunisie)",
+    "section": "",
+    "text": "Ouvrir le rapport\nOuvrir les slides\nTélécharger le dataset\nRepo GitHub"
+  },
+  {
+    "objectID": "index.html#accès-rapide",
+    "href": "index.html#accès-rapide",
+    "title": "Projet R – Production d’électricité (Tunisie)",
+    "section": "",
+    "text": "Ouvrir le rapport\nOuvrir les slides\nTélécharger le dataset\nRepo GitHub"
+  },
+  {
+    "objectID": "qmd/index.html",
+    "href": "qmd/index.html",
+    "title": "Projet R – Production d’électricité (Tunisie)",
+    "section": "",
+    "text": "Ouvrir le rapport\nOuvrir les slides\nTélécharger le dataset\nRepo GitHub"
+  },
+  {
+    "objectID": "qmd/index.html#accès-rapide",
+    "href": "qmd/index.html#accès-rapide",
+    "title": "Projet R – Production d’électricité (Tunisie)",
+    "section": "",
+    "text": "Ouvrir le rapport\nOuvrir les slides\nTélécharger le dataset\nRepo GitHub"
+  }
+]
