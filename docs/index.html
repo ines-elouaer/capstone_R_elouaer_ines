@@ -1,86 +1,74 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fr">
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Projet R – Production d’électricité (Tunisie)</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Projet R — Production d’électricité (Tunisie)</title>
   <style>
-    body { font-family: Arial, sans-serif; margin: 0; padding: 0; line-height: 1.6; background: #f6f7fb; }
-    header { background: #0f172a; color: white; padding: 32px 18px; }
-    header h1 { margin: 0; font-size: 24px; }
-    header p { margin: 8px 0 0; opacity: 0.9; }
-    main { max-width: 900px; margin: 22px auto; background: white; padding: 18px; border-radius: 10px; box-shadow: 0 4px 18px rgba(0,0,0,0.06); }
-    h2 { margin-top: 22px; }
-    .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 12px; margin-top: 12px; }
-    .card { border: 1px solid #e5e7eb; border-radius: 10px; padding: 14px; background: #fff; }
-    a.button { display: inline-block; background: #2563eb; color: white; padding: 10px 12px; border-radius: 8px; text-decoration: none; margin-right: 8px; margin-top: 8px; }
-    a.button.secondary { background: #0f172a; }
-    footer { text-align: center; color: #475569; padding: 20px; font-size: 14px; }
-    code { background: #f1f5f9; padding: 2px 6px; border-radius: 6px; }
+    body{font-family:system-ui,Segoe UI,Arial; margin:0; background:#f6f7fb;}
+    header{background:#0f172a; color:#fff; padding:28px 18px;}
+    .wrap{max-width:980px; margin:0 auto;}
+    h1{margin:0 0 6px 0; font-size:22px;}
+    p{margin:0; opacity:.9}
+    main{padding:18px;}
+    .card{background:#fff; border-radius:14px; padding:18px; box-shadow:0 6px 18px rgba(0,0,0,.06); margin:14px 0;}
+    .grid{display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:12px;}
+    .btn{display:inline-block; padding:10px 12px; border-radius:10px; text-decoration:none; font-weight:600;}
+    .primary{background:#2563eb; color:#fff;}
+    .dark{background:#111827; color:#fff;}
+    .ghost{background:#e5e7eb; color:#111827;}
+    code{background:#f1f5f9; padding:2px 6px; border-radius:6px;}
+    footer{padding:18px; text-align:center; color:#64748b;}
   </style>
 </head>
-
 <body>
   <header>
-    <h1>Projet R – Analyse de la production mensuelle d’électricité en Tunisie (2005–2024)</h1>
-    <p>Par producteur : STEG, IPP, auto-producteurs, solaire — Nettoyage, EDA, tests statistiques, régressions & diagnostics.</p>
+    <div class="wrap">
+      <h1>Projet R — Analyse de la production mensuelle d’électricité en Tunisie (2005–2024)</h1>
+      <p>Par producteur : STEG, IPP, auto-producteurs, solaire — Nettoyage, EDA, tests, régressions & diagnostics.</p>
+    </div>
   </header>
 
-  <main>
-    <h2>📌 Contexte</h2>
-    <p>
-      Ce projet analyse la production mensuelle d’électricité en Tunisie entre <b>2005 et 2024</b>.
-      L’objectif est d’identifier les <b>tendances</b>, la <b>saisonnalité</b> et les <b>différences entre producteurs</b>.
-    </p>
+  <main class="wrap">
+    <div class="card">
+      <h2>Objectif</h2>
+      <p>Étudier la tendance, la saisonnalité et comparer les producteurs d’électricité sur 2005–2024.</p>
 
-    <h2>🎯 Objectifs</h2>
-    <ul>
-      <li>Nettoyer et structurer les données (dates, NA, format tidy)</li>
-      <li>Explorer la série temporelle (tendance + saisonnalité)</li>
-      <li>Comparer les producteurs (STEG, IPP, auto-producteurs, solaire)</li>
-      <li>Tester statistiquement (ex: comparaison STEG vs IPP)</li>
-      <li>Construire des modèles de régression et analyser les diagnostics</li>
-    </ul>
+      <h3>Accès rapide</h3>
+      <div class="grid">
+        <div class="card">
+          <h4>Rapport</h4>
+          <p>Version PDF du rapport.</p>
+          <a class="btn primary" href="report/reportR.pdf">Ouvrir le rapport</a>
+        </div>
 
-    <h2>📂 Accès rapide</h2>
-    <div class="cards">
-      <div class="card">
-        <h3>📄 Rapport</h3>
-        <p>Lire le rapport complet (Quarto/HTML/PDF selon ton repo).</p>
-        <a class="button" href="report.html">Ouvrir le rapport</a>
-      </div>
-      <div class="card">
-        <h3>🖼️ Slides</h3>
-        <p>Voir la présentation du projet.</p>
-        <a class="button secondary" href="../slides/slidesR.pdf">Ouvrir les slides</a>
-      </div>
-      <div class="card">
-        <h3>🧾 Données</h3>
-        <p>Dataset principal utilisé :</p>
-        <p><code>data/opendataproductionmensuelleelectriciteparproducteurs.csv</code></p>
-      </div>
-      <div class="card">
-        <h3>💻 Code</h3>
-        <p>Accéder au code source du projet sur GitHub.</p>
-        <a class="button" href="https://github.com/ines-elouaer/capstone_R_elouaer_ines">Repo GitHub</a>
+        <div class="card">
+          <h4>Slides</h4>
+          <p>Présentation du projet.</p>
+          <a class="btn dark" href="slides/slidesR.pdf">Ouvrir les slides</a>
+        </div>
+
+        <div class="card">
+          <h4>Données</h4>
+          <p>Dataset principal (CSV)</p>
+          <a class="btn ghost" href="data/opendataproductionmensuelleelectriciteparproducteurs.csv">Télécharger</a>
+        </div>
+
+        <div class="card">
+          <h4>Code</h4>
+          <p>Code source sur GitHub.</p>
+          <a class="btn ghost" href="https://github.com/ines-elouaer/capstone_R_elouaer_ines">Repo GitHub</a>
+        </div>
       </div>
     </div>
 
-    <h2>✅ Résumé (très court)</h2>
-    <p>
-      La production totale présente une croissance à long terme avec une saisonnalité marquée.
-      La STEG reste le principal producteur ; la contribution solaire apparaît récemment et reste faible mais croissante.
-    </p>
-
-    <h2>🛠️ Reproductibilité</h2>
-    <p>
-      Pour exécuter le projet après clonage du repo, vérifie que le dataset est dans <code>data/</code>
-      et que les chemins dans le code utilisent <code>data/...</code>.
-    </p>
+    <div class="card">
+      <h2>Reproductibilité</h2>
+      <p>Après clonage du repo, le fichier principal est aussi disponible dans <code>data/</code> (pour l’exécution R),
+      et dans <code>docs/data/</code> (pour téléchargement sur le site).</p>
+    </div>
   </main>
 
-  <footer>
-    <p>© Ines Elouaer — Capstone R</p>
-  </footer>
+  <footer>© Ines Elouaer — Capstone R</footer>
 </body>
 </html>
