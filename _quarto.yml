@@ -17,8 +17,3 @@ format:
   html:
     theme: cosmo
     toc: true
-
-# IMPORTANT: copie ces fichiers dans docs/ automatiquement
-resources:
-  - slides/slidesR.pdf
-  - data/opendataproductionmensuelleelectriciteparproducteurs.csv
