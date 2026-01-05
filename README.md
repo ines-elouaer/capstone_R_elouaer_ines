@@ -1,7 +1,34 @@
-## Overview
+# Analyse de la production mensuelle d’électricité en Tunisie (2005–2024)
 
-This repository contains a collection of lab-templateses for an introductory statistics 
-course with **R**. The aim is to provide insight in fundamental principles and 
-a broad overview and enable students to select and understand particular books 
-and online material to dig in deeper in the diverse and fascinating field of statistics.
+## Objectif
+Étudier l’évolution mensuelle de la production d’électricité en Tunisie sur la période 2005–2024,  
+afin d’identifier la tendance de long terme, la saisonnalité et de comparer les principaux producteurs
+(STEG et producteurs indépendants – IPP).
 
+## Données
+- **Source** : Open Data Tunisie  
+- **Période étudiée** : 2005–2024  
+- **Fréquence** : mensuelle  
+- **Variables principales** : production STEG, IPP, solaire, auto-producteurs et production totale
+
+## Méthodologie
+- Nettoyage et préparation des données (formats de dates, valeurs manquantes)
+- Transformation des données (format large vers format long)
+- Analyse exploratoire des données (EDA)
+- Tests statistiques (normalité, test t apparié STEG vs IPP)
+- Modélisation par régression (tendance et saisonnalité)
+
+## Résultats clés
+- Augmentation globale de la production d’électricité sur la période étudiée
+- Présence d’une forte saisonnalité mensuelle
+- Différence statistiquement significative entre la production de la STEG et celle des IPP
+- Le modèle intégrant la saisonnalité offre le meilleur ajustement
+
+## Outils
+- **Langage** : R  
+- **Packages** : ggplot2, dplyr, tidyr, lubridate  
+- **Documentation** : Quarto  
+- **Versioning** : GitHub  
+
+## Auteur
+**Ines Elouaer**
