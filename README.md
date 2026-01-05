@@ -29,6 +29,10 @@ afin d’identifier la tendance de long terme, la saisonnalité et de comparer l
 - **Packages** : ggplot2, dplyr, tidyr, lubridate  
 - **Documentation** : Quarto  
 - **Versioning** : GitHub  
+## Notebook (Google Colab)
+Le code complet et exécutable du projet est disponible sur Google Colab :
+
+👉 https://colab.research.google.com/drive/1oLYKdaCYaSsMcYY_6ytxarkIIoype0Cf?usp=sharing
 
 ## Auteur
 **Ines Elouaer**
